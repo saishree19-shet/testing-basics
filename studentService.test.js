@@ -29,7 +29,7 @@ describe("calculateAverage", () => {
 
 describe("getGrade", () => {
   test("should return A for average >= 90", () => {
-   expect(getGrade(90)).toBe("B")
+   expect(getGrade(90)).toBe("A")
   });
 
   test("should return B for average between 75 and 89", () => {
